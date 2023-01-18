@@ -77,8 +77,8 @@ font-style: italic;
 }
 
 @media (max-width: 484px) {
-  selection {
-   width: 290px;
+  section {
+   width: 340px;
   }
 
 }
