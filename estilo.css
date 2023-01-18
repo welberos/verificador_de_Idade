@@ -1,6 +1,10 @@
 body {
+  position: relative;
   background: rgb(101, 28, 128);
   font: normal 15px Arial;
+  display: flex;
+  flex-direction: column;
+
 }
 
 header{
@@ -24,7 +28,7 @@ section {
   background: white;
   border-radius: 10px;
   padding: 15px;
-  width: 500px;
+  width: 430px;
   margin: auto;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
 }
@@ -52,14 +56,17 @@ section {
 }
 
 #res {
+  position: relative;
   font-size: 17px;
-  font-weight: 400;
   font-weight: bold;
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #imagem {
   margin-top: 20px;
+  width: auto;
 }
 
 footer {
@@ -68,3 +75,11 @@ text-align: center;
 font-style: italic;
 
 }
+
+@media (max-width: 484px) {
+  selection {
+   width: 290px;
+  }
+
+}
+
